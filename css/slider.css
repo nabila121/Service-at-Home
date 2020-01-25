@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.body {
+    margin:auto;
+    width: 300%;
+}
+
+.outerbox {
+   width: 300px;
+   overflow: hidden;
+}
+
+.sliderbox {
+    position: relative;
+    width: 1200px;
+    animation: 20s rokon infinite;
+}
+
+.sliderbox img {
+    float: left;
+
+}
+
+@keyframes rokon {
+    0% {
+        left: 0px;
+    }
+    20% {
+        left: 0px;
+    }
+    25% {
+        left: -300px;
+    }
+    45% {
+        left: -300px;
+    }
+    50% {
+        left: -600px;
+    }
+    70% {
+        left: -600px;
+    }
+    75% {
+        left: -900px;
+    }
+    95% {
+        left: -900px;
+    }
+    100% {
+        left: -1200px;
+    }
+}
+
